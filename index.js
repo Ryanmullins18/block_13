@@ -26,19 +26,19 @@ function convertToCelsius(fahren) {
  */
 function createMessage(fahren, celc) {
   if (fahren <=32) {
-    message = "very cold"
+    message = "This is very cold"
   }
   else if (fahren<= 64) {
-    message = "cold"
+    message = "This is cold"
   }
   else if (fahren<= 86) {
-    message = "warm"
+    message = "This is warm"
   }
   else if (fahren<= 100) {
-    message = "hot"
+    message = "This is hot"
   }
   else if (fahren>100) {
-    message = "Very hot"
+    message = "This is Very hot"
   }
   return `${fahren} fahrenheit is ${celc} celcius. ${message}`;
 }
